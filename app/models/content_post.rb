@@ -1,0 +1,2 @@
+class ContentPost < ApplicationRecord
+end
