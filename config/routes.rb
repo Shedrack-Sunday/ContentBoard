@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  # Defines the root path route ("/")
   root "content_posts#index"
+  get '/content_posts/:id', to: 'content_posts#show', as: :post
+
+ 
 end
